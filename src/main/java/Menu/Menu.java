@@ -18,7 +18,7 @@ import EntidadesDAO.ProdutoDAO;
 
 public class Menu {
 
-	EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa");
+	EntityManagerFactory emf = Persistence.createEntityManagerFactory("leo");
 	EntityManager em = emf.createEntityManager();
 
 	public void login() throws SQLException {

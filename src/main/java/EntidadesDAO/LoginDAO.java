@@ -39,6 +39,9 @@ public class LoginDAO {
 			
 			System.out.println("Usuario Conectado!!");
 			
+			Menu menu = new Menu();
+			menu.menuInicar();
+			
 		} catch (Exception e) {
 		System.out.println("Senha ou Usuario Incorreto!! " + e.getMessage());
 		}
