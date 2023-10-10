@@ -8,6 +8,7 @@ import javax.persistence.Table;
 @Table(name = "TB_LOGIN")
 public class Login {
 	@Id
+	private Integer id;
 	private String cpf;
 	private String senha;
 	
