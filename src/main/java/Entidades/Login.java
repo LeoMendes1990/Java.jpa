@@ -17,10 +17,18 @@ public class Login {
 		super();
 	}
 
-	public Login(String cpf, String senha) {
-		super();
+	public Login(Integer id, String cpf, String senha) {
+		this.id = id;
 		this.cpf = cpf;
 		this.senha = senha;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
 	}
 
 	public String getCpf() {
