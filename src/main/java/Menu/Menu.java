@@ -36,6 +36,7 @@ public class Menu {
 			System.out.println("1 - Login ");
 			System.out.println("2 - Cadastro ");
 			System.out.println("3 - Sair");
+			System.out.println("4 - sair");
 			opcaoo = in.nextInt();
 
 			switch (opcaoo) {
